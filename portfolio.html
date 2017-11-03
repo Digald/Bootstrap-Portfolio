@@ -1,36 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark's Portfolio</title>
     <!-- Linking Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- Linking Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!-- Standard button -->
-<button type="button" class="btn btn-default">Default</button>
-
-<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-<button type="button" class="btn btn-primary">Primary</button>
-
-<!-- Indicates a successful or positive action -->
-<button type="button" class="btn btn-success">Success</button>
-
-<!-- Contextual button for informational alert messages -->
-<button type="button" class="btn btn-info">Info</button>
-
-<!-- Indicates caution should be taken with this action -->
-<button type="button" class="btn btn-warning">Warning</button>
-
-<!-- Indicates a dangerous or potentially negative action -->
-<button type="button" class="btn btn-danger">Danger</button>
-
-<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-<button type="button" class="btn btn-link">Link</button>
+    <div id="wrap">
+        <!-- NAV BAR -->
+        <nav class="mynavbar navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Mark Alaniz</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- MAIN CONTENT -->
+        <div class="container">
+            <div class="row">
+                <article class="col-md-7 article">
+                    <h2>Portfolio</h2>
+                    <hr>
+                    <section>
+                        <div class="row">
+                            <div class="col-md-6 imgWrap">
+                                <a href="#" target="_blank">
+                                    <img class="image1" src="assets/images/hangman.jpg" alt="Picture of app.">
+                                    <div class="imagetext">Hangman</div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 imgWrap">
+                                <a href="#" target="_blank">
+                                    <img class="image2" src="assets/images/RPG_game.png" alt="Picture of app.">
+                                    <div class="imagetext">RPG Game</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 imgWrap">
+                                <a href="#" target="_blank">
+                                    <img class="image3" src="assets/images/trivia_game.png" alt="Picture of app.">
+                                    <div class="imagetext">Trivia Game</div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 imgWrap">
+                                <a href="#" target="_blank">
+                                    <img class="image4" src="assets/images/widget.jpg" alt="Picture of app.">
+                                    <div class="imagetext">Rutgers Info Widget</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 imgWrap">
+                                <a href="#" target="_blank">
+                                    <img class="image5" src="assets/images/RockScissorsPaper.png" alt="Picture of app.">
+                                    <div class="imagetext">Rock Paper Scissors</div>
+                                </a>
+                            </div>
+                            <div class="col-md-6"></div>
+                        </div>
+                    </section>
+                </article>
+                <div class="col-md-1">
+                </div>
+                <aside class="col-md-3 aside">
+                    <h2>Connect with Me</h2>
+                    <hr>
+                    <ul class="links">
+                        <li><a href="https://github.com/Digald" target="_blank"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/markalaniz/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://stackoverflow.com/users/8594969/marka?tab=profile" target="_blank"><i class="fa fa-stack-overflow fa-4x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </aside>
+                <div class="col-md-1">
+                </div>
+            </div>
+            <!-- END FIRST ROW -->
+        </div>
+        <!-- END ROW CONTAINER -->
+    </div>
+    <!-- PAGE WRAP -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <p>© Copyright 2017 Mark Alaniz</p>
+        </div>
+    </footer>
 </body>
+
 </html>
