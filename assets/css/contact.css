@@ -35,6 +35,11 @@ NAVBAR
 	padding-top: 0;
 }
 
+.navbar-default .navbar-brand:hover {
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
 nav li {
 	top: 15px;
 	height: 80px;
@@ -157,18 +162,17 @@ footer p {
 /*===========
 MEDIA QUERY
 ===========*/
-@media only screen and (max-width: 1007px) {
-
+@media only screen and (max-width: 1200px) {
+	aside h2 {
+		font-size: 24px;
+	}
+	
+}
+@media only screen and (max-width: 992px) {
 	#wrap {
 		line-height: 1.7;
 	}
 	.aside {
 		margin-top: 20px;
-	}
-
-	section img {
-		float: none;
-		width: 100%;
-		height: auto;
 	}
 }

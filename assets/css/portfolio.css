@@ -35,6 +35,11 @@ NAVBAR
 	padding-top: 0;
 }
 
+.navbar-default .navbar-brand:hover {
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
 nav li {
 	top: 15px;
 	height: 80px;
@@ -163,7 +168,7 @@ MEDIA QUERY
 
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 
 	#wrap {
 		line-height: 1.7;
@@ -180,8 +185,10 @@ MEDIA QUERY
 		margin-bottom: 0;
 	}
 
-	.imgtext {
-		width: 95.5%;
+	.imagetext {
+		width: 96%;
+		top: 400px;
+		padding: 25px 0 25px 0;
 	}
 
 	.imgWrap:nth-child(1) {
