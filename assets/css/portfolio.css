@@ -152,11 +152,23 @@ footer p {
 /*===========
 MEDIA QUERY
 ===========*/
-@media only screen and (max-width: 1007px) {
+@media only screen and (max-width: 1200px) {
+	.imagetext {
+		width: 89.5%;
+	}
+
+	aside h2 {
+		font-size: 24px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
 
 	#wrap {
 		line-height: 1.7;
 	}
+
 	.aside {
 		margin-top: 20px;
 	}
@@ -164,6 +176,19 @@ MEDIA QUERY
 	section img {
 		float: none;
 		width: 100%;
-		height: auto;
+		height: 550px;
+		margin-bottom: 0;
+	}
+
+	.imgtext {
+		width: 95.5%;
+	}
+
+	.imgWrap:nth-child(1) {
+		margin-bottom: 40px;
+	}
+
+	.specialWrap:first-child {
+		margin-bottom: 0;
 	}
 }
